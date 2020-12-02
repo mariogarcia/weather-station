@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/mario/.arduino15/packages/arduino/tools/**",
+                "/home/mario/.arduino15/packages/arduino/hardware/avr/1.8.3/**",
+                "${workspaceFolder}/**",
+                "/usr/bin/libraries/**",
+                "/home/mario/Arduino/libraries/**"
+            ],
+            "defines": [
+                "ARDUINO=10800",
+                "USBCON"
+            ],
+            "browse": {
+                "path": [
+                    "/home/mario/Arduino/libraries/",
+                    "/home/mario/Arduino/libraries/RTClib",
+                    "${workspaceRoot}"
+                ]
+            },
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "forcedInclude": [
+                "/home/mario/.arduino15/packages/arduino/hardware/avr/1.8.3/cores/arduino/Arduino.h"
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328old",
+    "sketch": "temp_and_humidity.ino",
+    "port": "/dev/ttyUSB0"
+}
